@@ -39,25 +39,19 @@
   </head>
   <body>
     <div class="wrapper_header">
-      <header>
+      <header class="header">
         <div class="header-items">
           <a href="./index.html" class="logo">Programmer</a>
           <nav>
             <ul class="cv-navigation">
               <li>
-                <a class="nav-link" href="#profile">Profile</a>
+                <a class="nav-link" href="#profile">About</a>
               </li>
               <li>
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
               <li>
                 <a class="nav-link" href="#projects">Projects</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#">Languages</a>
-              </li>
-              <li>
-                <a class="nav-link" href="#">Hobbies</a>
               </li>
               <li>
                 <a class="nav-link" href="#contact">Contacts</a>
@@ -78,36 +72,36 @@
         <div class="wrap">
           <div class="items-wrap">
             <div class="items marquee">
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
             </div>
             <div aria-hidden="true" class="items marquee">
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
-              <div class="running-title">Profile</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
+              <div class="running-title">About</div>
             </div>
           </div>
         </div>
         <div class="block-wrapper">
-          <h2 class="title">Profile</h2>
+          <h2 class="title">About</h2>
           <div class="info-block">
             <div class="block-text">
               I am a student of the Belarusian State University, Faculty of
-              Applied Mathematics and Computer Science. In two years of study, I
-              gained basic knowledge of both low-level languages, such as
+              Applied Mathematics and Computer Science. In three years of study,
+              I gained basic knowledge of both low-level languages, such as
               assembler, and high-level programming languages: C++, Java.
             </div>
             <img
@@ -410,18 +404,22 @@
             <h3 class="contact-form-title">Or you can find me here</h3>
             <nav>
               <ul class="contact-navigation">
-                <li>
-                  <a class="nav-link icon-link" href="#">
+                <li onclick="clipboard()">
+                  <a class="nav-link icon-link">
                     <img
                       alt="mail"
                       src="./assets/icons/mail.svg"
                       class="icon"
                     />
-                    kreshess@mail.ru</a
-                  >
+                    <p id="email-name">kreshess@mail.ru</p>
+                  </a>
                 </li>
                 <li>
-                  <a class="nav-link icon-link" href="https://github.com/Qyea">
+                  <a
+                    class="nav-link icon-link"
+                    href="https://github.com/Qyea"
+                    target="_blank"
+                  >
                     <img
                       alt="github"
                       src="./assets/icons/github.svg"
@@ -434,6 +432,7 @@
                   <a
                     class="nav-link icon-link"
                     href="https://discordapp.com/users/365873551083044865/"
+                    target="_blank"
                   >
                     <img
                       alt="discord"
@@ -444,7 +443,11 @@
                   >
                 </li>
                 <li>
-                  <a class="nav-link icon-link" href="https://t.me/qyeeaa">
+                  <a
+                    class="nav-link icon-link"
+                    href="https://t.me/qyeeaa"
+                    target="_blank"
+                  >
                     <img
                       alt="telegram"
                       src="./assets/icons/telegram.svg"
@@ -457,6 +460,7 @@
                   <a
                     class="nav-link icon-link"
                     href="https://www.instagram.com/kreches/"
+                    target="_blank"
                     ><img
                       alt="instagram"
                       src="./assets/icons/instagram.svg"
@@ -482,5 +486,6 @@
     <footer class="footer">
       <p>&copy; Anastasia Krech. All (or almost all) rights reserved</p>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
